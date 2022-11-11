@@ -34,6 +34,8 @@ call plug#begin()
 	Plug 'preservim/nerdcommenter'
 	Plug 'itchyny/lightline.vim'
 	Plug 'tpope/vim-surround'
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " Ensure that lightline is capable of showing itself
