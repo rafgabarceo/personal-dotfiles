@@ -1,0 +1,10 @@
+# Confiugration taken from Cam Spiers
+# https://github.com/camspiers/dotfiles/blob/master/files/.inputrc
+# Show the vi mode indicators
+set show-mode-in-prompt on
+
+# Configures the cmd mode display
+set vi-cmd-mode-string "\1\e[48;5;2m\2\1\e[1;38;5;0m\2 N \1\e[0m\2 \1\e[0 q\2"
+
+# Configures the ins mode display
+set vi-ins-mode-string "\1\e[48;5;4m\2\1\e[1;38;5;0m\2 I \1\e[0m\2 \1\e[6 q\2"
