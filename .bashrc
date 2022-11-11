@@ -116,7 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export devbox0="192.168.122.136"
 export PATH="/tools/Xilinx/Vivado/2020.2/bin:$PATH"
 alias matlab="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia matlab -nosoftwareopengl -desktop"
 
