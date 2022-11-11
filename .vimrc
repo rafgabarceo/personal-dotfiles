@@ -36,6 +36,7 @@ call plug#begin()
 	Plug 'tpope/vim-surround'
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
+	Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 
 " Ensure that lightline is capable of showing itself
